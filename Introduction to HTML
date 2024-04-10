@@ -57,10 +57,36 @@ Well, including the width and height attributes on your images solves that issue
 **********************************************************************************************************************************************************************
 There are 4 main file formats commanly used on the web:
 1.GIF
+-Simple Animations
+-supports 256 colors
+-Transparency but not alpha transparency
 2.SVG
+Scalable Vector Graphics
+-not resolution dependant
+-used for shapes, text, sketches, logos 
 3.PNG
+-Alpha Transparency
 4.JPG
+-Compression
+-Flexable format
 
 Responsive Images
 -CSS offers a solution for displaying images in different sizes to accommodate both large 
 screens and small screens.
+**********************************************************************************************************************************************************************
+Audio
+<audio controls src="audio.mp3">  </audio>
+**********************************************************************************************************************************************************************
+How to start format
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>My First Heading</h1>
+
+<p>My first paragraph.</p>
+
+</body>
+</html>
+**********************************************************************************************************************************************************************
