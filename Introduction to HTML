@@ -1,2 +1,66 @@
-HTML
-HyperText Markup Language
+The web consists of 3 programming languages:
+-HTML
+-CSS
+-JavaScript
+
+HTML, HyperText Markup Language
+-HTML is everywhere, used in websites, apps and various software where web technology is involved.
+-It serves for content like words, images, videos, audios, forms and interactive experiences.
+-HTML grants access to a wide range of built in browser functionalities
+
+CSS, Cascading Style Sheets, is like the stylist of the web page. It is responsible for how everything looks-the colours, fonts and sizes.It is also capable 
+of adding cool animations and interactions to spice things up.
+
+JavaScript is a programming language that allows you to create cool and interactive stuff.
+-JavaScript is behind the scenes making things work smoothly for the users. If there is a issue with the code or the browser is outdated and does not understand the
+code, it throws in the towel. It refuses to run that JavaScript and will not even try to figure out what to do. That is why JavaScript can be a bit fragile at times.
+*********************************************************************************************************************************************************************
+HTML Headlines
+Marking up headlines come is six different types h1-h6 (h1 being the largest font)
+
+The opening and closing tags: Paragraph <p> </p>
+
+There are four elements related to BOLD and ITALIC (x2 elements each) "<i>" and "<em>" element to add emphasis "<strong>" element, which is used to show importance,
+seriousness, or urgency "<b>" element is more generic and neutral.
+make certain words bold without conveying any meaning, we can use the "<b>" element
+Each item in the list is enclosed in an <li> element, which represents a list item
+To define the entire list and specify its type, we wrap all the items in a <ul> element, which stands for an unordered list.
+use <ol>. The term "ol" stands for ordered list
+a <dt> tag, which stands for definition term
+a <dd> tag, which stands for definition description
+a <dl> tag, representing the definition list
+These two elements, < cite > and ,< blockquote > serve a semantic purpose.
+The important thing is that elements should be nested within each other in a way that makes sense.
+<time datetime="2025-05-08">May 8, 2025</time>.
+HTML simplifies this by using a single element called <time>
+(<time>) and a closing tag (</time>). For example, we can use it like this: <time>May 8th</time> or <time>May 8th 2025</time>
+we need to type "&lt;"H4 headline instead of displaying "H4"
+The br element is a simple tag without an opening or closing tag.
+**********************************************************************************************************************************************************************
+HREF- Hypertext Reference
+
+Navigation and linking
+-When we want to create a link we use the A element, which stands for anchor.
+-The "S" in HTTPS stands for secure.
+**********************************************************************************************************************************************************************
+Images - <img src="image.jpg"alt="brown dog"width="400"height="300">
+
+-There are 4 attributes that need to be included for every image.
+1. (SRC), Source attribute which tells the browser which image file to load.
+2.(ALT), which provides a text description of the image.
+3.Width and Height attribute which determines the size of the image.
+4.
+
+The height and width can be specified in the beginning or end. In HTML the order of attributes within an element can be whatever you prefer.
+Remember those annoying instances when you are reading an article online and the page keeps shifting around as the images load, disrupting your reading experience?
+Well, including the width and height attributes on your images solves that issue. 
+**********************************************************************************************************************************************************************
+There are 4 main file formats commanly used on the web:
+1.GIF
+2.SVG
+3.PNG
+4.JPG
+
+Responsive Images
+-CSS offers a solution for displaying images in different sizes to accommodate both large 
+screens and small screens.
