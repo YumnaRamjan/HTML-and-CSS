@@ -1,1 +1,2 @@
-
+What is JavaScript?
+Javascript is the language of web interactions.
